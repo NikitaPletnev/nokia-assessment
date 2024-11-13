@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "../nokia-assessment/node_modules/.bin/react-scripts start",
-    "build": "../nokia-assessment/node_modules/.bin/react-scripts build",
+    "build": "react-scripts build",
     "test": "../nokia-assessment/node_modules/.bin/react-scripts test",
     "eject": "../nokia-assessment/node_modules/.bin/react-scripts eject",
     "lint": "eslint '**/*.{ts,tsx}'",

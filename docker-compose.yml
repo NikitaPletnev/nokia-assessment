@@ -5,11 +5,12 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3002:3002"
+      - "3002:80"
 
   server:
     build:
-      context: .
-    command: node server/server.js
+      context: ./server
+      dockerfile: Dockerfile
+    command: npm start
     ports:
       - '5001:5001'
